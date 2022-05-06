@@ -16,16 +16,28 @@ body{
     font-size: 4rem;
     margin: 0;
 }
+
+.item4 {
+    grid-area: button;
+    justify-content: center;
+    align-items: center;
+}
+
+#toggleFormatBtn{
+    width:auto;
+    margin:auto;
+}
+
 .grid-container{
     display:grid;
     margin:5%;
     grid-template-areas: '. header .'
                         '. date .'
-                        '. clock .';
+                        '. clock .'
+                        '. button .';
     padding:1px;
     background-color: bisque;
 }
-
 
 .grid-item{
     text-align:center;
